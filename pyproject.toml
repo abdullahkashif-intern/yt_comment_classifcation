@@ -1,0 +1,42 @@
+[project]
+name = "ypuutbe-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "google-api-python-client>=2.199.0",
+    "langchain>=1.3.18",
+    "langchain-anthropic>=1.7.0",
+    "langchain-core>=1.6.1",
+    "langchain-google-genai>=4.3.7",
+    "langchain-groq>=1.1.3",
+    "langchain-huggingface>=1.2.2",
+    "pydantic>=2.13.5",
+    "pydantic-settings>=2.15.0",
+    "python-dotenv>=1.2.3",
+    "tenacity>=9.1.4",
+    "uvicorn[standard]>=0.52.4",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.1.1",
+]
+frontend = [
+    "streamlit>=1.42.0",
+    "pandas>=2.2.0",
+    "requests>=2.32.0",
+]
+
+[tool.uv]
+# uv only includes the "dev" dependency-group in a plain `uv sync` by
+# default. Without this, `uv sync` (the command CLAUDE.md documents for
+# Install/Sync) silently uninstalls streamlit/pandas/etc. if they were
+# previously installed via `--group frontend`.
+default-groups = ["dev", "frontend"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

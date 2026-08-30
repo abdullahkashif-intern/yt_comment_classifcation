@@ -1,0 +1,36 @@
+# API framework
+fastapi
+uvicorn[standard]
+
+# Schema enforcement for LLM I/O
+pydantic
+pydantic-settings
+
+# Env var loading
+python-dotenv
+
+# Retry/backoff for transient YouTube API and LLM provider errors (Phase 0)
+tenacity
+
+# YouTube Data API client (comment fetching — no scraping)
+google-api-python-client
+
+# LLM provider abstraction
+langchain
+langchain-core
+
+# LLM provider integrations (only the ones matching LLM_PROVIDER need to be installed,
+# but all four are listed since provider.py supports switching between them)
+langchain-anthropic
+langchain-google-genai
+langchain-groq
+langchain-huggingface
+
+# Testing
+pytest
+httpx
+
+# Frontend (Streamlit UI, calls /classify-video only)
+streamlit
+pandas
+requests

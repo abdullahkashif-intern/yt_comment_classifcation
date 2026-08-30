@@ -1,0 +1,22 @@
+[
+  {"comment_id": "c1", "author": "userA", "text": "This is exactly what I needed, thank you so much!", "expected_categories": ["appreciation"]},
+  {"comment_id": "c2", "author": "userB", "text": "Can you explain why you used a for loop instead of a list comprehension?", "expected_categories": ["question"]},
+  {"comment_id": "c3", "author": "userC", "text": "This is way better explained than the official docs.", "expected_categories": ["comparison", "appreciation"]},
+  {"comment_id": "c4", "author": "userD", "text": "lmaooo the way you said that 😂😂", "expected_categories": ["funny"]},
+  {"comment_id": "c5", "author": "userE", "text": "This tutorial is trash, half the code doesn't even run.", "expected_categories": ["criticism"]},
+  {"comment_id": "c6", "author": "userF", "text": "wow SO helpful 🙄 thanks for nothing", "expected_categories": ["criticism"]},
+  {"comment_id": "c7", "author": "userG", "text": "¿Podrías subir la versión en español?", "expected_categories": ["question"]},
+  {"comment_id": "c8", "author": "userH", "text": "Merci beaucoup, ça m'a énormément aidé !", "expected_categories": ["appreciation"]},
+  {"comment_id": "c9", "author": "userI", "text": "yeh video pichle wale se zyada acha hai", "expected_categories": ["comparison", "appreciation"]},
+  {"comment_id": "c10", "author": "userJ", "text": "Bro really said 'trust me' and broke my code 💀", "expected_categories": ["funny", "criticism"]},
+  {"comment_id": "c11", "author": "userK", "text": "Is this compatible with Python 3.13?", "expected_categories": ["question"]},
+  {"comment_id": "c12", "author": "userL", "text": "Great content as always, been following since your 1k subs video", "expected_categories": ["appreciation"]},
+  {"comment_id": "c13", "author": "userM", "text": "your mic quality got so much worse compared to last video", "expected_categories": ["comparison", "criticism"]},
+  {"comment_id": "c14", "author": "userN", "text": "haha bro really thought this was gonna work", "expected_categories": ["funny"]},
+  {"comment_id": "c15", "author": "userO", "text": "no cap this is the best explanation on youtube", "expected_categories": ["appreciation"]},
+  {"comment_id": "c16", "author": "userP", "text": "why is this 40 minutes for something a 5 min video could cover", "expected_categories": ["criticism"]},
+  {"comment_id": "c17", "author": "userQ", "text": "素晴らしい説明でした、ありがとうございます", "expected_categories": ["appreciation"]},
+  {"comment_id": "c18", "author": "userR", "text": "does this work on windows or only mac/linux?", "expected_categories": ["question"]},
+  {"comment_id": "c19", "author": "userS", "text": "still waiting for the follow up video you promised 3 months ago 🙃", "expected_categories": ["criticism"]},
+  {"comment_id": "c20", "author": "userT", "text": "this is basically the same as the other channel's video but worse", "expected_categories": ["comparison", "criticism"]}
+]
